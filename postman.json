@@ -86,7 +86,7 @@
         "tags": [
           "item-controller"
         ],
-        "operationId": "save_1",
+        "operationId": "save",
         "requestBody": {
           "content": {
             "application/json": {
@@ -116,7 +116,7 @@
         "tags": [
           "item-controller"
         ],
-        "operationId": "edit_1",
+        "operationId": "edit",
         "parameters": [
           {
             "name": "id",
@@ -157,7 +157,7 @@
         "tags": [
           "inventory-controller"
         ],
-        "operationId": "save_2",
+        "operationId": "save",
         "requestBody": {
           "content": {
             "application/json": {
@@ -187,7 +187,7 @@
         "tags": [
           "inventory-controller"
         ],
-        "operationId": "edit_2",
+        "operationId": "edit",
         "parameters": [
           {
             "name": "id",
@@ -258,7 +258,7 @@
         "tags": [
           "order-controller"
         ],
-        "operationId": "findById",
+        "operationId": "get",
         "parameters": [
           {
             "name": "id",
@@ -318,7 +318,7 @@
         "tags": [
           "item-controller"
         ],
-        "operationId": "list_1",
+        "operationId": "list",
         "parameters": [
           {
             "name": "pageable",
@@ -348,7 +348,7 @@
         "tags": [
           "item-controller"
         ],
-        "operationId": "findById_1",
+        "operationId": "get",
         "parameters": [
           {
             "name": "id",
@@ -379,7 +379,7 @@
         "tags": [
           "item-controller"
         ],
-        "operationId": "delete_1",
+        "operationId": "delete",
         "parameters": [
           {
             "name": "id",
@@ -410,7 +410,7 @@
         "tags": [
           "inventory-controller"
         ],
-        "operationId": "list_2",
+        "operationId": "list",
         "parameters": [
           {
             "name": "pageable",
@@ -440,7 +440,7 @@
         "tags": [
           "inventory-controller"
         ],
-        "operationId": "findById_2",
+        "operationId": "get",
         "parameters": [
           {
             "name": "id",
@@ -471,7 +471,7 @@
         "tags": [
           "inventory-controller"
         ],
-        "operationId": "delete_2",
+        "operationId": "delete",
         "parameters": [
           {
             "name": "id",
